@@ -7,7 +7,6 @@ const Download: React.FC = () => {
       background: 'linear-gradient(180deg, var(--color-purple) 0%, #6b28d1 100%)'
     }}>
       <div className="container animate-fade-in">
-        <h2 style={{ marginBottom: '20px' }}>Prêt à Bondir ?</h2>
         <p style={{ fontSize: '1.2rem', marginBottom: '50px', opacity: 0.9 }}>
           Téléchargez l'application Bondiz maintenant et commencez à créer des souvenirs.
         </p>

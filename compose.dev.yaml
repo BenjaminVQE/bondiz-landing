@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      target: development
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true # Useful for file watching in some environments
+    container_name: bondiz-landing-dev

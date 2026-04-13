@@ -26,15 +26,15 @@ const Hero: React.FC = () => {
           </p>
           <div className="hero-buttons" style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
             <a href="#download" className="btn-cta">Démarrer l'aventure</a>
-            <a href="#about" style={{ 
-              border: '2px solid rgba(255,255,255,0.3)', 
-              padding: '15px 30px', 
+            <a href="#about" style={{
+              border: '2px solid rgba(255,255,255,0.3)',
+              padding: '15px 30px',
               borderRadius: '50px',
               fontWeight: 600
             }}>En savoir plus</a>
           </div>
         </div>
-        
+
         <div className="animate-fade-in hero-image-container">
           <div style={{
             position: 'absolute',
@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
             opacity: 0.3,
             zIndex: -1
           }}></div>
-          
+
           <div className="glass" style={{
             width: 'min(280px, 80vw)',
             height: 'min(560px, 150vw)',
@@ -62,8 +62,7 @@ const Hero: React.FC = () => {
             alignItems: 'center',
             padding: '20px'
           }}>
-             <img src="/assets/images/logo_white.png" alt="Bondiz Logo" style={{ width: 'min(150px, 40vw)', marginBottom: '20px' }} />
-             <div style={{ color: 'var(--color-cta)', fontWeight: 700, fontSize: '1.2rem' }}>Bondiz App</div>
+            <img src="/assets/images/logo_white.png" alt="Bondiz Logo" style={{ width: 'min(150px, 40vw)', marginBottom: '20px' }} />
           </div>
         </div>
       </div>

@@ -1,21 +1,8 @@
 services:
-  app:
+  bondiz-landing:
     build:
       context: .
-      target: development
+      target: production-stage  
     ports:
-      - "5173:5173"
-    volumes:
-      - .:/app
-      - /app/node_modules
-    environment:
-      - CHOKIDAR_USEPOLLING=true # Useful for file watching in some environments
-    container_name: bondiz-landing-dev
-
-  production:
-    build:
-      context: .
-      target: production-stage
-    ports:
-      - "8080:80"
+      - "3012:80"
     container_name: bondiz-landing-prod
