@@ -39,7 +39,7 @@ const Download: React.FC = () => {
             </div>
           </a>
 
-          <a href="/downloads/bondiz.ipa" download className="glass" style={{
+          <div className="glass" style={{
             padding: '20px 40px',
             borderRadius: '20px',
             display: 'flex',
@@ -47,17 +47,18 @@ const Download: React.FC = () => {
             gap: '20px',
             minWidth: '280px',
             border: '2px solid rgba(255,255,255,0.2)',
-            cursor: 'pointer',
-            transition: 'var(--transition)'
+            opacity: 0.6,
+            cursor: 'default',
+            filter: 'grayscale(0.5)'
           }}>
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
               <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.74.84-.04 1.91-.77 3.44-.64 1.5.13 2.65.74 3.39 1.81-3.02 1.8-2.5 5.9.52 7.15-.65 1.63-1.54 3.25-2.43 3.91zM12.03 7.25c-.08-2.69 2.21-4.96 4.79-5.11.13 2.87-2.31 5.08-4.79 5.11z" />
             </svg>
             <div style={{ textAlign: 'left' }}>
-              <div style={{ fontSize: '0.9rem', opacity: 0.8 }}>Télécharger pour iOS</div>
-              <div style={{ fontSize: '1.4rem', fontWeight: 700 }}>Fichier iOS</div>
+              <div style={{ fontSize: '0.9rem', opacity: 0.8 }}>Bientôt disponible</div>
+              <div style={{ fontSize: '1.4rem', fontWeight: 700 }}>Version iOS</div>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </section>
